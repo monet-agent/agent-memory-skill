@@ -1,0 +1,26 @@
+{
+  "name": "agent-memory",
+  "version": "0.1.0",
+  "description": "Session-resilience wrapper for OpenClaw agents",
+  "main": "dist/checkpoint.js",
+  "scripts": {
+    "build": "tsc",
+    "checkpoint": "ts-node checkpoint.ts",
+    "restore": "ts-node restore.ts",
+    "test": "echo 'Run via OpenClaw skill harness'"
+  },
+  "keywords": [
+    "openclaw",
+    "agent",
+    "persistence",
+    "checkpoint",
+    "memory"
+  ],
+  "author": "monetmakesmoney",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.3.0"
+  }
+}
